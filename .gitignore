@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+
+build
+external
+node_modules
+release
+tmp
+lib/resource
+out/*
+
+*.log
+*.bak*

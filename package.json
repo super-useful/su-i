@@ -1,0 +1,49 @@
+{
+    "author": {
+        "Simon Jefford": "si@ibrokethat.com",
+        "Christos Constandinou": "constantology@gmail.com"
+    },
+    "description" : "super useful user interface library",
+    "dependencies" : {},
+    "devDependencies" : {
+        "browserify" : "x",
+        "chai" : "x",
+        "karma" : "x",
+        "karma-chai" : "x",
+        "karma-chrome-launcher" : "x",
+        "karma-coffee-preprocessor" : "x",
+        "karma-coverage" : "x",
+        "karma-firefox-launcher" : "x",
+        "karma-html2js-preprocessor" : "x",
+        "karma-ie-launcher" : "x",
+        "karma-junit-reporter" : "x",
+        "karma-mocha" : "x",
+        "karma-requirejs" : "x",
+        "karma-safari-launcher" : "x",
+        "karma-script-launcher" : "x",
+        "karma-sinon" : "x",
+        "nodemon" : "x",
+        "open" : "x",
+        "shelljs" : "x",
+        "through" : "x"
+    },
+    "engines" : {
+        "node" : ">= 0.11.x"
+    },
+    "keywords" : ["super", "useful", "user interface"],
+    "license" : [ {
+        "type" : "MIT",
+        "url" : "https://raw.github.com/super-useful/su-apiserver/master/LICENSE"
+    } ],
+    "main" : null,
+    "name" : "su-i",
+    "private" : true,
+    "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:super-useful/su-i.git"
+    },
+    "scripts": {
+        "test": "node --harmony --harmony_typeof ./node_modules/mocha/bin/_mocha --colors --recursive --ui tdd --reporter spec ./test/**/*.test.js --NODE_ENV=test"
+    },
+    "version" : "0.0.1"
+}

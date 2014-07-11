@@ -1,0 +1,5 @@
+* text=auto
+*.js text=crlf
+*.csv text=crlf
+*.svg text=crlf
+*.json text=crlf
