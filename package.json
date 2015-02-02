@@ -43,7 +43,7 @@
         "url" : "git@github.com:super-useful/su-i.git"
     },
     "scripts": {
-        "test": "node --harmony --harmony_typeof ./node_modules/mocha/bin/_mocha --colors --recursive --ui tdd --reporter spec ./test/**/*.test.js --NODE_ENV=test"
+        "test": "node --harmony ./node_modules/mocha/bin/_mocha --colors --recursive --ui tdd --reporter spec ./test/**/*.test.js --NODE_ENV=test"
     },
     "version" : "0.0.1"
 }
